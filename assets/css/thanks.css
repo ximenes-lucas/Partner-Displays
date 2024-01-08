@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #fff;
+    position:sticky;
+    top: 0;
+    width: 100vw;
+    height: 90px;
+    box-shadow: 0px 1px 10px #000000;
+    overflow-y: hidden;    
+}
+
+.header--content{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.header-logo a{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo a{
+    text-decoration: none;
+}
+
+.header-logo img{
+    width: 80px;
+    height: auto;
+    
+}
+
+.header-logo-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    color: #555;
+    margin-bottom: -15px;
+}
+
+.thanks{
+    background-color: #eee;
+}
+
+.thanks-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 0;
+}
+
+.thanks-title-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thanks-content .title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #333;
+}
+
+.thanks-content .title-line{
+    height: 3px;
+    background: linear-gradient(to right, #eee, #555, #eee);
+    margin-bottom: 15px;
+    width: 85%;
+    margin: auto;
+}
+
+.thanks-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thanks-icon img{
+    width: 300px;
+    height: auto;
+    margin-left: -50px;
+}
+
+button {
+    display: inline-block;
+    background-color: #F15D36;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #F15D36;
+}
+
+button a{
+    color: #fff;
+}
+
+footer{
+    background-color: #fff;
+}
+
+.footer_content{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color:#000000;
+    padding-bottom: 18px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    color:#000000;
+    margin-top:15px;
+}
+
+.rodape img{
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer_creation{
+    color:#000000
+}
+
+.creator{
+    color:#000000
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+}
+
+.address_content{
+    display: flex;
+    padding: 15px;
+}
+
+.address_desc{
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.address_desc:last-child{
+    margin-bottom: 0;
+}
+
+.footer_creator{
+    padding: 15px;
+    font-size: 13px;
+}
+
+@media(max-width:1026px){
+    .footer_content{
+        max-width: 1100px;
+        margin: auto;
+        padding-top: 25px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        color:#000000;
+    }
+    
+    .footer_creator{
+        display: none;
+    }
+}
+
+@media(max-width:620px){
+    .thanks-title-txt .title{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .thanks-title-txt .subtitle{
+        font-size: 15px;
+        width: 400px;
+    }
+
+    .thanks-icon img{
+        width: 250px;
+        height: auto;
+        margin-left: -50px;
+    }
+}
+
+@media(max-width:426px){
+    .header-logo img{
+        width: 70px;
+        height: auto;    
+    }
+
+    .header-logo-text{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        margin-left: 10px;
+        color: #555;
+        margin-bottom: -15px;
+    }
+    
+    .thanks-title-txt .title{
+        font-size: 21px;
+    }
+
+    .thanks-title-txt .subtitle{
+        font-size: 15px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .thanks-icon img{
+        width: 220px;
+        height: auto;
+        margin-left: -50px;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .rodape img {
+        width: 80px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .address{
+        padding-left: 40px ;
+    }
+}
+
+@media(max-width:376px){
+    .thanks-title-txt .title{
+        font-size: 20px;
+    }
+
+    .thanks-title-txt .subtitle{
+        font-size: 15px;
+        text-align: center;
+        width: 310px;
+    }
+
+    .address{
+        padding-left:20px ;
+    }
+}
+
+@media(max-width:321px){
+    .thanks-title-txt .title{
+        font-size: 18px;
+    }
+}

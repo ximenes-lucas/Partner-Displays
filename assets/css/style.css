@@ -1,0 +1,1300 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #fff;
+    position:fixed;
+    top: 0;
+    width: 100vw;
+    height: 85px;
+    box-shadow: 0px 1px 10px #000000;
+    z-index: 999;    
+}
+
+.header--content{
+    height: 85px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.header-logo a{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo a{
+    text-decoration: none;
+}
+
+.header-logo img{
+    width: 70px;
+    height: auto;
+}
+
+.header-logo-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    color: #555;
+}
+
+.menu li a{
+    height: inherit;
+}
+
+.menu nav ul li{
+    display: flex;
+    margin-top: 5px;   
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu li a{
+    list-style: none;
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 35px;
+}
+
+.option.clicked {
+    background-color: #F15D36;
+    color: #fff;
+}
+
+#contact{
+    margin-right: 0;
+}
+
+.menu a:hover{
+    background-color: #F15D36;
+    color: #fff;
+}
+
+main{
+    background-color: #f7f7f7;
+}
+
+.main-title{
+    font-size:25px
+}
+
+.main-title span{
+    color: #F15D36;
+    font-size: 35px;
+    font-weight: 600;
+}
+.main-desc{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 130px 0 45px 0;
+}
+
+.main-img.mobile{
+    display: none;
+}
+
+.main-txt{
+    width: 400px;
+}
+
+.main-content{
+    text-align: justify;
+    padding-right: 45px;
+}
+
+.main-content-inicio{
+    background-color: #f7f7f7;
+    padding: 45px 0;
+}
+
+.main-title-txt, .location-desc, .contact-us-desc, .product-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    font-size: 30px;
+    color:#333;
+    font-weight: 600;
+    padding-top: 45px;
+}
+
+
+.main-title-txt .subtitle, .location-desc .subtitle,
+.contact-us-desc .subtitle, .product-desc .subtitle{
+    font-size: 15px;
+    color: #a8a8a8;
+    margin-top: 15px;
+}
+
+.main-content-desc, .products-content{
+    max-width:1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 45px 5px;
+}
+
+.title-mobile{
+    display: none;
+}
+
+.main-img img{
+    width:350px;
+    height:auto
+}
+
+.inicio-text{
+    text-align: justify;
+    word-wrap: break-word;
+    max-width: 550px;
+    padding-right:25px ;
+    font-size: 14px;
+}
+
+.content-clients{
+    height: 150px;
+    border-top: 1px solid #ccc;
+    border-bottom:1px solid #ccc ;
+}
+
+.content-clients-logos{
+    height: 150px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logo-sakura img{
+    width: 150px;
+    height: auto;
+}
+
+.logo-elgin img{
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.logo-saint img{
+    width: 120px;
+    height: auto;
+}
+
+.logo-astra img{
+    width: 150px;
+    height: auto;
+    margin-top: 8px;
+}
+
+.logo-wurth img{
+    width: 150px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.logo-ciranda img{
+    width: 110px;
+    height: auto;
+    margin-top: -20px;
+}
+
+.logo-atlas img{
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.inicio-image img{
+    width: 570px;
+    height: auto;
+    box-shadow: 0px 1px 10px #000000;
+}
+
+.respect, .clients-relationship, .environment{
+    display: flex;
+    margin-left: -40px;
+    margin-bottom: 10px;
+    margin-top: -15px;
+}
+
+.respect img, .clients-relationship img, .environment img{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    margin-top: 8px;
+}
+
+.clients-relationship img, .environment img{
+    margin-top: 15px;
+}
+
+.products{
+    padding: 45px 0 10px 0;
+}
+
+.products-content{
+    max-width: 1200px;
+    margin: auto;
+    padding:45px 0;
+}
+
+.product-projects{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    gap: 35px;
+}
+
+.section-projects--photos, img{
+    width: 200px;
+    height: 355.55px;
+}
+
+.section-projects--photoinfo{
+    position:absolute;
+    background-color: rgba(0,0,0,0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+}
+
+.section-projects--photoinfo.center h5{
+    font-size: 16px;
+}
+
+.section-projects--photoinfo h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-projects--photos:hover .section-projects--photoinfo{
+    display: flex;
+}
+
+.location{
+    background-color: #f7f7f7;
+}
+
+.location-content{
+    width: 100%s;
+    margin: auto;
+}
+
+.location-gps{
+    width: 100%;
+    overflow-y: hidden;
+    margin-top: 45px;
+}
+
+.location-desc .title{
+    text-transform: uppercase;
+}
+
+.location-gps{
+    height: 100%;
+}
+
+.contact-us{
+    padding: 45px 0;
+}
+
+.section-body{
+    padding-bottom: 45px;
+}
+
+.slide-review.message{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+input{
+    margin: 10px 10px 10px;
+    padding: 10px;
+    border: transparent;
+    border-bottom: 2px solid #a7a7a7;
+    background-color: transparent;
+    outline: 0;
+    width: 620px;
+}
+
+
+.name, .email{
+    width: 300px;
+}
+
+.sms{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+input::placeholder{
+    color:#a7a7a7;
+    font-weight: 600;
+}
+
+textarea{
+    width:97%;
+    height: 150px;
+    bordeR: 2px solid #a7a7a7;
+    border-radius: 10px;
+    resize: none;
+    padding: 10px;
+    color:#333333;
+    margin-top: -20px;
+    outline: none;
+}
+
+textarea::placeholder{
+    color: #a7a7a7;
+    font-weight: 600;
+}
+
+.button {
+    display: inline-block;
+    background-color: #F15D36;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #F15D36;
+}
+
+footer{
+    background-color: #eee;
+}
+
+.footer_content{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color:#000000;
+    padding-bottom: 18px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    color:#000000;
+    margin-top:15px;
+}
+
+.rodape img{
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer_creation{
+    color:#000000
+}
+
+.creator{
+    color:#000000
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+}
+
+.address_content{
+    display: flex;
+    padding: 15px;
+}
+
+.address_desc{
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.address_desc:last-child{
+    margin-bottom: 0;
+}
+
+.footer_creator{
+    padding: 15px;
+    font-size: 13px;
+}
+
+@media (max-width:1231px){
+    .header--content{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    
+    .header-logo-text{
+        display: none;
+    }
+
+    .menu li a{
+        list-style: none;
+        color: #333;
+        text-decoration: none;
+        padding: 5px;
+        margin-right: 35px;
+    }
+
+    .menu_mobile{
+        display: none;
+    }
+
+    #contact{
+        margin-right: 0;
+    }
+    
+    .last a{
+        margin-right: 0;
+    }
+    
+    .menu a:hover{
+        background-color: #F15D36;
+        color: #fff;
+    }
+
+    .content-clients-logos{
+        height: 150px;
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .logo-sakura img{
+        width: 140px;
+        height: auto;
+    }
+    
+    .logo-elgin img{
+        width: 100px;
+        height: auto;
+    }
+
+    .logo-astra img{
+        width: 140px;
+        height: auto;
+    }
+    
+    .logo-saint img{
+        width: 140px;
+        height: auto;
+        margin-top: -10px;
+    }
+
+    .logo-wurth img{
+        width: 140px;
+        height: auto;
+    }
+
+    .logo-ciranda img{
+        width: 110px;
+        height: auto;
+        margin-top: -20px;
+    }
+    
+    .logo-atlas img{
+        width: 150px;
+        height: auto;
+    }
+
+     .inicio-image img{
+        width: 600px;
+        height: auto;
+    }
+
+    .inicio-text{
+        max-width: 75%;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    .main-content-desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .main-content-desc{
+        justify-content: space-around;
+    }
+
+    .location-content{
+        width: 100%;
+    } 
+}
+
+@media (max-width:1025px){
+    .content-clients-logos{
+        padding: 0 25px 0 25px;
+    }
+
+    .logo-sakura img{
+        width: 110px;
+        height: auto;
+    }
+    
+    .logo-elgin img{
+        width: 90px;
+        height: auto;
+    }
+
+    .logo-astra img{
+        width: 110px;
+        height: auto;
+    }
+    
+    .logo-saint img{
+        width: 110px;
+        height: auto;
+    }
+
+    .logo-wurth img{
+        width: 110px;
+        height: auto;
+    }
+
+    .logo-ciranda img{
+        width: 110px;
+        height: auto;
+        margin-top: -10px;
+    }
+    
+    .logo-atlas img{
+        width: 110px;
+        height: auto;
+    }
+
+    .inicio-image img{
+        width: 600px;
+        height: auto;
+    }
+
+    .inicio-text{
+        max-width: 75%;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    .respect, .clients-relationship, .environment{
+        margin-bottom: 15px;
+    }
+
+    .main-content-desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .location-content{
+        width: 100%;
+    }
+
+    .location-gps{
+        width: 100%;
+    }
+
+    footer{
+        background-color: #eee;
+    }
+    
+    .footer_content{
+        max-width: 1100px;
+        margin: auto;
+        padding-top: 25px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        color:#000000;
+    }
+    
+    .footer_creator{
+        display: none;
+    }
+}
+
+@media(max-width:900px){
+    .header--content{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    nav{
+        margin-right: -42px;
+    }
+
+    .menu nav ul{
+        flex-direction: column;
+        display:none;
+        position: fixed;
+        right: 0px;
+        width: 50vw;
+        height: calc(100vh - 85px);
+        background-color: rgba(247,247,247,1.0);
+        margin-top:-18px;
+    }
+
+    .menu ul li{
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #F15D36;
+    }
+
+    .menu li a{
+        color: #000000;
+        font-weight: 400;
+        padding: 30px 0;
+    }
+
+    #history, #product, #localization, #last{
+        margin-top: 20px;
+    }
+
+    nav .menu_mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 40px;
+        height: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 40px;
+        cursor: pointer;
+    }
+
+    .mn_line{
+        height:4px;
+        border-radius: 2px;
+        background-color: #333333;
+    }
+
+    .menu li a:hover{
+        background-color: transparent;
+        color: #000000;
+    }
+
+    #contact{
+        margin-right: 0;
+    }
+    
+    .last a{
+        margin-right: 0;
+    }
+    
+    .menu a:hover{
+        background-color: #F15D36;
+        color: #fff;
+    }
+    .main-content{
+        font-size: 16px;
+        letter-spacing: -1px;
+        padding-right: 50px
+    }
+
+    .main-txt{
+        padding: 0 18px;
+    }
+
+    .main-img img{
+        width: 250px;
+        padding-right: 10px;
+    }
+
+    .content-clients{
+        height: auto;
+    }
+
+    .content-clients-logos{
+        height: auto;
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 25px;
+    }
+
+    .content-clients-logos img{
+        margin-right: 15px;
+    }
+
+    .logo-sakura img{
+        width: 120px;
+        height: auto;
+    }
+    
+    .logo-elgin img{
+        width: 90px;
+        height: auto;
+    }
+
+    .logo-astra img{
+        width: 120px;
+        height: auto;
+    }
+    
+    .logo-saint img{
+        width: 120px;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .logo-saint{
+        order: 8;
+    }
+
+    .logo-wurth img{
+        width: 120px;
+        height: auto;
+    }
+
+    .logo-ciranda img{
+        width: 100px;
+        height: auto;
+        margin-top: 0px;
+    }
+
+    .logo-ciranda{
+        order: 7;
+    }
+
+    .logo-atlas img{
+        width: 120px;
+        height: auto;
+    }
+
+    .inicio-image img{
+        width: 470px;
+        height: auto;
+    }
+
+    .inicio-text{
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .location-content{
+        width: 100%;
+    }
+
+    .footer_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:15px;
+    }
+
+    .rodape_desc{
+        text-align: center;
+    }   
+}
+
+@media(max-width:657px){
+    .main-img{
+        display: none;
+    }
+
+    .main-img.mobile{
+        display: flex;
+    }
+
+    .main-desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-content{
+        font-size: 16px;
+    }
+    
+    .main-title{
+        font-size:35px;
+    }
+    
+    .main-title span{
+        color: #F15D36;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    
+    .main-img img{
+        width:300px;
+        height:auto;
+        margin-bottom: 25px;
+    }
+    .title-standard{
+        display: none;
+    }
+
+    .title-mobile{
+        display: flex;
+        align-items: center;
+    }
+
+    .title-mobile span{
+        margin-right: 7px;
+        margin-bottom: 5px;
+    }
+
+    .logo-sakura img{
+        width: 110px;
+        height: auto;
+    }
+
+    .logo-sakura{
+        order:6
+    }
+    
+    .logo-elgin img{
+        width: 90px;
+        height: auto;
+    }
+
+    .logo-astra img{
+        width: 110px;
+        height: auto;
+    }
+    
+    .logo-saint img{
+        width: 110px;
+        height: auto;
+        margin-top: -10px;
+    }
+
+    .logo-wurth img{
+        width: 110px;
+        height: auto;
+    }
+
+    .logo-ciranda img{
+        width: 100px;
+        height: auto;
+        margin-top: -25px;
+    }
+
+    .logo-atlas img{
+        width: 110px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .main-txt{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inicio-image img{
+        width: 400px;
+    }
+
+    input{
+        margin: 10px 10px 10px;
+        padding: 10px;
+        border: transparent;
+        border-bottom: 2px solid #a7a7a7;
+        background-color: transparent;
+        outline: 0;
+        width: auto;
+    }
+
+    .name, .email{
+        width: 100%;
+    }
+
+    .sms{
+        margin-top: 30px;
+        margin-bottom: 80px;
+        width: 100%;
+    }
+
+    input::placeholder{
+        color:#a7a7a7;
+        font-weight: 600;
+    }
+
+    textarea{
+        width:97%;
+        height: 150px;
+        bordeR: 2px solid #a7a7a7;
+        border-radius: 10px;
+        resize: none;
+        padding: 10px;
+        color:#a7a7a7;
+        margin-top: -20px;
+        outline: none;
+    }
+
+    textarea::placeholder{
+        color: #a7a7a7;
+        font-weight: 600;
+    }
+
+    .button{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:520px){
+    .logo-ciranda img{
+        width: 100px;
+        height: auto;
+        margin-top: 0px;
+    } 
+}
+
+@media(max-width: 426px){
+    .header--content{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    nav{
+        margin-right: -35px;
+    }
+
+    .menu nav ul{
+        flex-direction: column;
+        display:none;
+        position: fixed;
+        right: 0px;
+        width: 70vw;
+        height: calc(100vh - 85px);
+        background-color: rgba(247,247,247,1.0);
+        color: #fff;
+        margin-top:-18px;
+    }
+
+    .main-content{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 0 5px;
+        font-size: 16px;
+    }
+
+    .main-img img {
+        width: 250px;
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .logo-sakura img{
+        width: 110px;
+        height: auto;
+    }
+
+    .logo-sakura{
+        order:6
+    }
+    
+    .logo-elgin img{
+        width: 90px;
+        height: auto;
+    }
+
+    .logo-astra img{
+        width: 110px;
+        height: auto;
+        margin-top: 0;
+    }
+    
+    .logo-saint img{
+        width: 110px;
+        height: auto;
+        margin-top: -10px;
+    }
+
+    .logo-wurth img{
+        width: 110px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .logo-ciranda img{
+        width: 100px;
+        height: auto;
+        margin-top: 0px;
+    }
+
+    .logo-atlas img{
+        width: 110px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .logo-sakura{
+        order:-1;
+    }
+
+    .logo-atlas{
+        order: 7;
+    }
+
+    .logo-saint img{
+        margin-left:10px;
+        margin-top: 15px;
+    }
+
+    .logo-wurth{
+        order:99;
+    }
+
+    .logo-atlas img{
+        margin-right: 5px;
+    }
+
+    .inicio-text{
+        letter-spacing: -1px;
+        margin-left:25px;
+        font-size: 16px;
+    }
+
+    .inicio-text ul p{
+        letter-spacing: -0.1em;
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .respect, .clients-relationship, .environment{
+        margin-bottom: 15px;
+    }
+
+    .respect img, .clients-relationship img, .environment img{
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+        margin-top: 8px;
+    }
+
+    .inicio-image img{
+        width: 300px;    
+    }
+
+    .name, .email, .sms{
+        width: 80%;
+    }
+
+    textarea{
+        width:80%;
+        height: 150px;
+        bordeR: 2px solid #a7a7a7;
+        border-radius: 10px;
+        resize: none;
+        padding: 10px;
+        color:#a7a7a7;
+        margin-top: -20px;
+        outline: none;
+    }
+
+    .address{
+        padding-left: 35px ;
+    }
+}
+
+@media(max-width:376px){
+    .header--content{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .main-content{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 0 15px;
+        line-height: 21px;
+        font-size: 16px;
+    }
+
+    .title-mobile span, .title-mobile{
+        font-size:30px;
+    }
+
+    .inicio-text{
+        letter-spacing: -1px;
+        margin-left:0px;
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .inicio-text ul p{
+        letter-spacing: -1.2px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .respect, .clients-relationship, .environment{
+        margin-bottom: 15px;
+    }
+
+    .environment{
+        margin-bottom: 0;
+    }
+
+    .main-txt{
+        width: auto;
+    }
+
+    .main-img.mobile img{
+        width: 250px;
+    }
+
+    .logo-sakura{
+        order:-1
+    }
+
+    .logo-ciranda{
+        order:5
+    }
+
+    .logo-saint{
+        order:6
+    }
+
+    .logo-wurth{
+        order: 7;
+    }
+
+    .logo-saint img{
+        width: 110px;
+        height: auto;
+        margin-top: 0px;
+    }
+
+    .name, .email, .sms{
+        width: 80%;
+    }
+
+    textarea{
+        width:80%;
+        height: 150px;
+        bordeR: 2px solid #a7a7a7;
+        border-radius: 10px;
+        resize: none;
+        padding: 10px;
+        color:#a7a7a7;
+        margin-top: -20px;
+        outline: none;
+    }
+
+    .address{
+        padding-left: 50px ;
+    }
+}
+
+@media(max-width:321px){
+    header{
+        height: 85px;
+    }
+
+    .header--content{
+        height: 85px;
+    }
+
+    .header-logo img {
+        width: 70px;
+        height: auto;
+    }
+
+    .main-content{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .inicio-text{
+        letter-spacing: -1px;
+        margin-left:0px;
+        font-size: 14px;
+        padding: 0 15px;
+        max-width: 275px;
+    }
+
+    .inicio-text ul p {
+        letter-spacing: -1.3px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .respect img, .clients-relationship img, .environment img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .main-content {
+        font-size: 14px;
+    }
+
+    .main-title-txt .title{
+        font-size: 25px;
+    }
+
+    .inicio-text p{
+        font-size: 13px;
+    }
+
+    .inicio-image img{
+        width: 250px;
+    }
+
+    .address{
+        padding-left: 15px ;
+    }
+}
