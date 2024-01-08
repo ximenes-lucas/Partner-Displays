@@ -1167,14 +1167,13 @@ a{
     }
 
     .inicio-text{
-        letter-spacing: -1px;
         margin-left:0px;
         font-size: 15px;
         padding: 0;
     }
 
     .inicio-text ul p{
-        letter-spacing: -1.2px;
+        letter-spacing: -1px;
         font-size: 14px;
         line-height: 21px;
     }
