@@ -59,7 +59,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 45px 0;
+    height: calc(100vh - 90px);
 }
 
 .thanks-title-txt{
@@ -70,7 +70,7 @@ header{
 }
 
 .thanks-content .title{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 500;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -183,6 +183,19 @@ a{
 }
 
 @media(max-width:1026px){
+    .thanks-content .title{
+        font-size: 25px;
+    }
+
+    .thanks-icon img{
+        width: 250px;
+    }
+
+    .subtitle{
+        width: 500px;
+        text-align: center;
+    }
+
     .footer_content{
         max-width: 1100px;
         margin: auto;
@@ -195,6 +208,12 @@ a{
     
     .footer_creator{
         display: none;
+    }
+}
+
+@media(max-width:769px){
+    .subtitle{
+        font-size: 15px;
     }
 }
 
