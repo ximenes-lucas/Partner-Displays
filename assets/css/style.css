@@ -451,10 +451,11 @@ footer{
     margin: auto;
     padding-top: 18px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     color:#000000;
     padding-bottom: 18px;
+    border-bottom: 1px solid #555;
 }
 
 .rodape{
@@ -477,6 +478,12 @@ a{
 
 .footer_creation{
     color:#000000
+}
+
+.join-us .title{
+    font-size: 20px;
+    color: #333;
+    font-weight: 600
 }
 
 .creator{
@@ -504,7 +511,19 @@ a{
 
 .footer_creator{
     padding: 15px;
-    font-size: 13px;
+    font-size: 15px;
+}
+
+.rights{
+    border-top: 1px solid #a7a7a7;
+    width: 100%;
+    margin-top: 15px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.rights span{
+    font-size: 14px;
 }
 
 @media (max-width:1231px){
@@ -628,7 +647,11 @@ a{
 
     .location-content{
         width: 100%;
-    } 
+    }
+
+    .footer_content{
+        justify-content: space-around;
+    }
 }
 
 @media (max-width:1025px){
@@ -714,17 +737,17 @@ a{
     }
     
     .footer_content{
-        max-width: 1100px;
+        max-width: 900px;
         margin: auto;
         padding-top: 25px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-wrap: wrap;
         color:#000000;
     }
-    
-    .footer_creator{
-        display: none;
+
+    .rodape{
+        margin-left: 15px;
     }
 }
 
@@ -889,7 +912,8 @@ a{
 
     .footer_content{
         display: flex;
-        flex-direction: column;
+        padding-right: 40px;
+        padding-left: 40px;
         align-items: center;
     }
 
@@ -918,6 +942,26 @@ a{
     
     .objective {
         max-width: 670px;
+    }
+
+    .footer_content{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .footer_creator{
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 708px) {
+    .footer_content{
+        justify-content: center;
+    }
+
+    .footer_creator{
+        margin-left: -110px;
     }
 }
 
@@ -1076,6 +1120,7 @@ a{
     .button{
         font-size: 14px;
     }
+
 }
 
 @media(max-width:520px){
@@ -1084,6 +1129,12 @@ a{
         height: auto;
         margin-top: 0px;
     } 
+}
+
+@media(max-width:461px){
+    .footer_creator{
+        margin-left: -70px;
+    }
 }
 
 @media(max-width: 426px){
@@ -1239,9 +1290,24 @@ a{
     }
 
     .address{
-        padding-left: 35px ;
+        padding-left: 55px ;
+    }
+    
+    .footer_creator{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .join-us .recrut-email{
+        font-size: 14px;
+    }
+
+    .rights{
+        font-size: 13px;
     }
 }
+
+
 
 @media(max-width:376px){
     .header--content{
@@ -1326,7 +1392,11 @@ a{
     }
 
     .address{
-        padding-left: 50px ;
+        padding-left: 31px ;
+    }
+
+    .rights span{
+        font-size: 13px;
     }
 }
 
@@ -1382,5 +1452,9 @@ a{
 
     .address{
         padding-left: 15px ;
+    }
+
+    .join-us .recrut-email {
+        font-size: 13px;
     }
 }
